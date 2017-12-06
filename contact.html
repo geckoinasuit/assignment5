@@ -11,18 +11,19 @@
     <div class="contact-form">
         <h1>Contact Us</h1>
         <form method="get">
-            <label>First Name: <input type="text" name="fname" id="fname"></label><br><br>
-            <label>Last Name: <input type="text" name="lname" id="lname"></label><br><br>
-            <label>E-mail: <input type="text" name="email" id="email"></label><br><br>
+            <label>First Name: <input type="text" name="fname" id="fname" maxlength="20"></label><br><br>
+            <label>Last Name: <input type="text" name="lname" id="lname" maxlength="30"></label><br><br>
+            <label>E-mail: <input type="text" name="email" id="email" maxlength=30></label><br><br>
             <label for="comments">Comments:</label><br>
-            <textarea name="comments" id="comments" rows="4" cols="40"></textarea><br><br>
+            <textarea name="comments" id="comments" rows="4" cols="40" maxlength="200"></textarea><br><br>
         </form>
     </div>
     <fieldset>
-        <legend>Options</legend>
+        <legend>Newsletter Preference</legend>
 
-        <input type="checkbox" class="inlineblock" name="mycheckbox" value="Option 1">Option 1<br>
-        <input type="checkbox" class="inlineblock" name="mycheckbox" value="Option 2">Option 2<br>
+        <input type="checkbox" class="inlineblock" name="mycheckbox" value="Option 1">Email<br>
+        <input type="checkbox" class="inlineblock" name="mycheckbox" value="Option 2">Hand-delivered pigeon post (weekly)<br>
+        <input type="checkbox" class="inlineblock" name="mycheckbox" value="Option 3">Hand-delivered by a gecko in a miniature hot air balloon (monthly)
         <br>
     </fieldset>
     <fieldset>
